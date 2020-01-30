@@ -17,7 +17,7 @@ export default {
     methods: {
         markComplete() {
             this.todoItem.completed = !this.todoItem.completed;
-            // console.log(123);  /* eslint-disable-line no-console */
+            // window.console.log(123);  
         }
     }
 }
